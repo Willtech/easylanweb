@@ -23,7 +23,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="shortcut icon" type="image/x-icon" href="http://www.goovert.com/intranet.ico">
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <title>easylanweb Intranet</title>
 </head>
 <frameset rows="120,50,*" cols="*" frameborder="NO" border="0" framespacing="0" title="Outer">
