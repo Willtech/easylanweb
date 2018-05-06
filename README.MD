@@ -2,7 +2,7 @@
 
 Easylanweb is an intranet site in a box.
 
-Originally developed for PHP v4.x to client specification the alpha version was produced as proof of concept in about five development hours.
+Originally developed for PHP v4.x to client specification the alpha version was produced as proof of concept in about five development hours excluding research time.
 
 ## Intended operation for client
 
