@@ -1,0 +1,93 @@
+
+/* ******************************************* */
+/*                                             */
+/* This file is part of the "Intranet" package */
+/* Produced for: {licence}                     */
+/*                                             */
+/* You are free to modify this source code     */
+/* provided this notice and any tracking       */
+/* mechanism remain intact and operational.    */
+/*                                             */
+/* This original source code and including any */
+/* derivative works are copyright and may not  */
+/* be distributed, copied, installed or        */
+/* otherwise used (except as required for      */
+/* archive or backup) without written          */
+/* authorisation in advance                    */
+/*                                             */
+/* Source Code produced by Willtech 2008       */
+/*                                             */
+/* ******************************************* */
+
+body {
+	background-color: #5482A7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FEFEFE;
+	font-size: 12px;
+	text-align: justify;
+	cursor: auto;
+}
+a {
+}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+a:active {
+}
+.banner {
+	background-color: #00457C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FEFEFE;
+	font-size: 14px;
+	cursor: auto;
+	vertical-align: middle;
+	text-align: center;
+}
+.topmenu {
+	background-color: #5482A7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FEFEFE;
+	font-size: 14px;
+	font-weight:bold;
+	cursor: auto;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #00457C;
+	text-align: center;
+	vertical-align: middle;
+}
+.menu {
+	background-color: #5482A7;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FEFEFE;
+	font-size: 14px;
+	cursor: auto;
+	text-align: left;
+	border-right-style: solid;
+	border-right-color: #00457C;
+	border-right-width: 2px;
+	white-space: nowrap;
+}
+.boldlink {
+	font-weight: bold;
+}
+.menuimage {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-right: 7px;
+}

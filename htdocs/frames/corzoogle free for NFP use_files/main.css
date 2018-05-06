@@ -1,0 +1,603 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; BACKGROUND: url(/img/corz-bg.png) #fff7d1 fixed no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #574e40; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif; HEIGHT: 100%
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #dd8422; TEXT-DECORATION: none
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #d5af40; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffb300; TEXT-DECORATION: underline
+}
+A:active {
+	BACKGROUND: #000000; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.container {
+	CLEAR: both; FLOAT: none; MARGIN: 0px; WIDTH: 100%; HEIGHT: 100%
+}
+.content {
+	MARGIN-TOP: 90px
+}
+.content-medium {
+	MARGIN-TOP: 90px
+}
+.content-wide {
+	MARGIN-TOP: 90px
+}
+.admin {
+	MARGIN-TOP: 90px
+}
+.wide {
+	MARGIN-TOP: 90px
+}
+.v-wide {
+	MARGIN-TOP: 90px
+}
+.narrow {
+	MARGIN-TOP: 90px
+}
+.v-narrow {
+	MARGIN-TOP: 90px
+}
+.book {
+	MARGIN-TOP: 90px
+}
+#book {
+	MARGIN-TOP: 90px
+}
+.book-medium {
+	MARGIN-TOP: 90px
+}
+#book-medium {
+	MARGIN-TOP: 90px
+}
+.book-wide {
+	MARGIN-TOP: 90px
+}
+#book-wide {
+	MARGIN-TOP: 90px
+}
+.content {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content-medium {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content-medium-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content-wide {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content-wide-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.wide-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.admin {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.v-wide {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.v-wide-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.narrow {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.narrow-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.v-narrow {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.v-narrow-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book-medium {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book-medium {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book-medium-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book-medium-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book-wide {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book-wide {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.book-wide-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+#book-wide-top {
+	CLEAR: both; FLOAT: none; MARGIN-BOTTOM: 0px
+}
+.content {
+	MARGIN-LEFT: 15%
+}
+.content-top {
+	MARGIN-LEFT: 15%
+}
+.content-medium {
+	MARGIN-LEFT: 15%
+}
+.content-medium-top {
+	MARGIN-LEFT: 15%
+}
+.content {
+	MARGIN-RIGHT: 15%
+}
+.content-top {
+	MARGIN-RIGHT: 15%
+}
+.content-medium {
+	MARGIN-RIGHT: 20%
+}
+.content-medium-top {
+	MARGIN-RIGHT: 20%
+}
+.content-wide {
+	MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%
+}
+.wide {
+	MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%
+}
+.content-wide-top {
+	MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%
+}
+.wide-top {
+	MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%
+}
+.v-wide {
+	MARGIN-LEFT: 2%; MARGIN-RIGHT: 2%
+}
+.v-wide-top {
+	MARGIN-LEFT: 2%; MARGIN-RIGHT: 2%
+}
+.narrow {
+	MARGIN-LEFT: 23%; MARGIN-RIGHT: 23%
+}
+.narrow-top {
+	MARGIN-LEFT: 23%; MARGIN-RIGHT: 23%
+}
+.v-narrow {
+	MARGIN-LEFT: 30%; MARGIN-RIGHT: 35%
+}
+.v-narrow-top {
+	MARGIN-LEFT: 30%; MARGIN-RIGHT: 35%
+}
+#book {
+	MARGIN-LEFT: 20%
+}
+.book {
+	MARGIN-LEFT: 20%
+}
+#book-top {
+	MARGIN-LEFT: 20%
+}
+.book-top {
+	MARGIN-LEFT: 20%
+}
+#book-wide {
+	MARGIN-LEFT: 20%
+}
+.book-wide {
+	MARGIN-LEFT: 20%
+}
+#book-wide-top {
+	MARGIN-LEFT: 20%
+}
+.book-wide-top {
+	MARGIN-LEFT: 20%
+}
+.book-medium-top {
+	MARGIN-LEFT: 20%
+}
+#book {
+	MARGIN-RIGHT: 27%
+}
+.book {
+	MARGIN-RIGHT: 27%
+}
+#book-top {
+	MARGIN-RIGHT: 27%
+}
+.book-top {
+	MARGIN-RIGHT: 27%
+}
+#book-medium {
+	MARGIN-LEFT: 17%; MARGIN-RIGHT: 25%
+}
+.book-medium {
+	MARGIN-LEFT: 17%; MARGIN-RIGHT: 25%
+}
+.book-medium-top {
+	MARGIN-LEFT: 17%; MARGIN-RIGHT: 25%
+}
+#book-wide {
+	MARGIN-RIGHT: 13%
+}
+.book-wide {
+	MARGIN-RIGHT: 13%
+}
+#book-wide-top {
+	MARGIN-RIGHT: 13%
+}
+.book-wide-top {
+	MARGIN-RIGHT: 13%
+}
+.book #cor {
+	TEXT-ALIGN: justify
+}
+.remove-highlighting {
+	RIGHT: 6px; POSITION: absolute; TOP: 80px; BACKGROUND-COLOR: yellow
+}
+.tools {
+	RIGHT: 0px; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 58px
+}
+.top-left-menu {
+	Z-INDEX: 99; LEFT: 11px; POSITION: absolute; TOP: 10px
+}
+.top-mid-menu {
+	Z-INDEX: 99; LEFT: 36%; POSITION: absolute; TOP: 10px
+}
+.top-right-menu {
+	Z-INDEX: 99; RIGHT: 10px; POSITION: absolute; TOP: 10px
+}
+.top-info-menu {
+	Z-INDEX: 99; LEFT: 60%; POSITION: absolute; TOP: 12px
+}
+.info-pane {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.9em; LEFT: 48%
+}
+.top-menu IMG {
+	
+}
+.ribbon {
+	RIGHT: 0px; POSITION: absolute; TOP: 40px
+}
+.ribbon-l {
+	LEFT: 0px; POSITION: absolute; TOP: 40px
+}
+.toplinks {
+	PADDING-RIGHT: 0.4em; PADDING-LEFT: 0.7em; FONT-SIZE: 0.8em; RIGHT: 0px; PADDING-BOTTOM: 0.4em; COLOR: #be9c36; POSITION: absolute; TOP: 58px; BACKGROUND-COLOR: transparent
+}
+.section-links {
+	FONT-SIZE: 0.9em; RIGHT: 7px; POSITION: absolute; TOP: 58px
+}
+.auto-section {
+	BORDER-TOP: #be9c36 1px dashed; MARGIN-TOP: 2.25em; FONT-SIZE: 0.75em; RIGHT: 7px; PADDING-TOP: 0.33em; POSITION: absolute; TOP: 58px; TEXT-ALIGN: right
+}
+.auto-section-title {
+	FONT-WEIGHT: 600; FONT-SIZE: 110%; PADDING-BOTTOM: 0.25em; COLOR: #eba005
+}
+.auto-section-links {
+	
+}
+.two-column {
+	WIDTH: 100%
+}
+.two-column-row {
+	CLEAR: right; FLOAT: right; WIDTH: 100%
+}
+.two-column-row:hover {
+	BACKGROUND-COLOR: white
+}
+.left-column {
+	PADDING-RIGHT: 3%; PADDING-LEFT: 0.2em; FLOAT: left; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.left-column-thin {
+	PADDING-RIGHT: 3%; PADDING-LEFT: 0.2em; FLOAT: left; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.left-column-thick {
+	PADDING-RIGHT: 3%; PADDING-LEFT: 0.2em; FLOAT: left; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.right-column {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 3%; FLOAT: right; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.right-column-thin {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 3%; FLOAT: right; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.right-column-thick {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 3%; FLOAT: right; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em; TEXT-ALIGN: justify
+}
+.left-column {
+	WIDTH: 45%
+}
+.right-column {
+	WIDTH: 45%
+}
+.left-column-thin {
+	WIDTH: 25%
+}
+.right-column-thin {
+	WIDTH: 25%
+}
+.left-column-thick {
+	WIDTH: 65%
+}
+.right-column-thick {
+	WIDTH: 65%
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+#right {
+	TEXT-ALIGN: right
+}
+#right-div {
+	TEXT-ALIGN: right
+}
+#right-link {
+	TEXT-ALIGN: right
+}
+#right-box {
+	TEXT-ALIGN: right
+}
+.right-text {
+	TEXT-ALIGN: right
+}
+.useful-links {
+	FONT-SIZE: 0.8em; MARGIN: 2em; WIDTH: 90%
+}
+.links-row {
+	CLEAR: right; FONT-SIZE: 0.9em; FLOAT: right; PADDING-BOTTOM: 0.1em; WIDTH: 100%; PADDING-TOP: 0.1em
+}
+.links-row:hover {
+	
+}
+.left-links {
+	PADDING-RIGHT: 0.3em; FLOAT: left; WIDTH: 30%
+}
+.right-links {
+	PADDING-LEFT: 0.3em; FLOAT: right; WIDTH: 60%
+}
+H1 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h1 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H2 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h2 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H3 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h3 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H4 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h4 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H5 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h5 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H6 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+.h6 {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif
+}
+H1 {
+	FONT-SIZE: 240%; COLOR: #f4ab3e; BACKGROUND-COLOR: transparent
+}
+.h1 {
+	FONT-SIZE: 240%; COLOR: #f4ab3e; BACKGROUND-COLOR: transparent
+}
+H2 {
+	COLOR: #f09e2f; BACKGROUND-COLOR: transparent
+}
+.h2 {
+	COLOR: #f09e2f; BACKGROUND-COLOR: transparent
+}
+H3 {
+	COLOR: #d8810a; BACKGROUND-COLOR: transparent
+}
+.h3 {
+	COLOR: #d8810a; BACKGROUND-COLOR: transparent
+}
+H4 {
+	COLOR: #efbb05; BACKGROUND-COLOR: transparent
+}
+.h4 {
+	COLOR: #efbb05; BACKGROUND-COLOR: transparent
+}
+H5 {
+	COLOR: #be9c36; BACKGROUND-COLOR: transparent
+}
+.h5 {
+	COLOR: #be9c36; BACKGROUND-COLOR: transparent
+}
+H6 {
+	COLOR: #eba005; BACKGROUND-COLOR: transparent
+}
+.h6 {
+	COLOR: #eba005; BACKGROUND-COLOR: transparent
+}
+TT {
+	COLOR: #916a1a
+}
+.small {
+	FONT-SIZE: x-small
+}
+.big {
+	FONT-SIZE: x-large
+}
+.sub {
+	MARGIN-BOTTOM: 0.5em; POSITION: relative; TOP: -0.7em
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+DIV {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+FORM {
+	MARGIN: 0px
+}
+ABBR {
+	CURSOR: help; BORDER-BOTTOM: #000 1px dotted
+}
+ACRONYM {
+	CURSOR: help; BORDER-BOTTOM: #000 1px dotted
+}
+STRIKE {
+	COLOR: #999999
+}
+.centered {
+	TEXT-ALIGN: center
+}
+.space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.half-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.quarter-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.small-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.tiny-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.clear {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.space {
+	HEIGHT: 200px
+}
+.half-space {
+	HEIGHT: 100px
+}
+.quarter-space {
+	HEIGHT: 50px
+}
+.small-space {
+	HEIGHT: 25px
+}
+.tiny-space {
+	HEIGHT: 10px
+}
+.clear {
+	FONT-SIZE: 0px
+}
+.chev-links A {
+	TEXT-DECORATION: none
+}
+.chev-text {
+	FONT-SIZE: 2em; COLOR: #f09e2f; POSITION: relative; TOP: -0.25em; BACKGROUND-COLOR: transparent
+}
+.site-notice {
+	FONT-SIZE: 80%; LEFT: 2em; WIDTH: 72px; COLOR: #f4ab3e; POSITION: absolute; TOP: 6em; BACKGROUND-COLOR: transparent
+}
+.notice-head {
+	FONT-WEIGHT: bold; POSITION: relative; TOP: 0.5em
+}
+.site-quote {
+	FONT-SIZE: 2em; MARGIN-BOTTOM: 2em; COLOR: #f09e2f
+}
+.lo-fi {
+	LEFT: 9.72em; COLOR: #f4ab3e; POSITION: absolute; TOP: 3.5em; BACKGROUND-COLOR: transparent
+}
+.warning {
+	FONT-WEIGHT: bold; COLOR: red
+}
+IMG.switch-button {
+	WIDTH: 155px; HEIGHT: 120px
+}
+.switch {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 100; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 150px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 120px
+}
+.searchword {
+	BACKGROUND-COLOR: yellow
+}
+.byline {
+	FONT-SIZE: x-small; COLOR: #efbb05; BACKGROUND-COLOR: transparent
+}
+.underline {
+	TEXT-DECORATION: underline
+}
+.button-small {
+	
+}
+.red {
+	COLOR: #ff0000
+}
+.blue {
+	COLOR: #6600ff
+}
+.darkblue {
+	COLOR: #00008b
+}
+.green {
+	COLOR: #33cc00
+}
+.darkgreen {
+	COLOR: #006400
+}
+.yellow {
+	COLOR: #ffff00
+}
+.brown {
+	COLOR: #996600
+}
+.orange {
+	COLOR: #efbb05
+}
+.l-brown {
+	COLOR: #ce9a39
+}
+.purple {
+	COLOR: #cc00ff
+}
+.pink {
+	COLOR: #ff00ff
+}
+.grey {
+	COLOR: #b5b5b5
+}
+.black {
+	COLOR: #000000
+}

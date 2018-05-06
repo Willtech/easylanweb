@@ -1,0 +1,129 @@
+.corzoogle-container {
+	MARGIN-LEFT: 10%; WIDTH: 80%
+}
+.corz-links {
+	FONT-SIZE: small; FLOAT: right; COLOR: #eba005
+}
+.description {
+	FONT-SIZE: x-small; COLOR: #be9c36
+}
+.found-info {
+	MARGIN-TOP: 5px; FONT-SIZE: 90%; FLOAT: right; COLOR: #be9c36
+}
+.corzoogle-info {
+	FLOAT: right; WIDTH: 44%
+}
+.stop-words {
+	FONT-SIZE: x-small; FLOAT: left; WIDTH: 44%
+}
+.removed {
+	FONT-WEIGHT: bold
+}
+.search-items {
+	FONT-SIZE: x-small
+}
+.hit-lower {
+	COLOR: #efbb05
+}
+.hit-upper {
+	COLOR: #be9c36
+}
+.hit-case {
+	COLOR: #eba005
+}
+.score {
+	FONT-SIZE: small; COLOR: #f4ab3e
+}
+.recent-hits {
+	FONT-SIZE: small; FLOAT: right; WIDTH: 40em; TEXT-ALIGN: right
+}
+TT {
+	COLOR: #916a1a
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.embedded-machine-menu {
+	WIDTH: 32em
+}
+.indented {
+	MARGIN-LEFT: 0.5em
+}
+.centered {
+	TEXT-ALIGN: center
+}
+.space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.half-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.quarter-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.small-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.tiny-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.clear {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.space {
+	HEIGHT: 200px
+}
+.half-space {
+	HEIGHT: 100px
+}
+.quarter-space {
+	HEIGHT: 50px
+}
+.small-space {
+	HEIGHT: 25px
+}
+.tiny-space {
+	HEIGHT: 15px
+}
+.clear {
+	FONT-SIZE: 0px
+}
+.search-form {
+	TEXT-ALIGN: center
+}
+.subsub {
+	MARGIN-BOTTOM: 0.5em; POSITION: relative; TOP: -1em
+}
+.corzoogle-notice {
+	FONT-SIZE: x-small
+}
+.file-results {
+	
+}
+.label-file-results {
+	FONT-WEIGHT: bold; FONT-SIZE: small
+}
+.searchword {
+	BACKGROUND-COLOR: yellow
+}
+.price {
+	PADDING-LEFT: 3em
+}
+.right-title-img {
+	MARGIN-TOP: 1em; FLOAT: right; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 2em
+}
+.right-title-shift-img {
+	MARGIN-TOP: 1em; FLOAT: right; MARGIN-BOTTOM: 1em; MARGIN-LEFT: 2em
+}
+.left-title-img {
+	MARGIN-TOP: 1em; FLOAT: left; MARGIN-BOTTOM: 1em; MARGIN-RIGHT: 2em
+}
+.left-title-shift-img {
+	MARGIN-TOP: 1em; FLOAT: left; MARGIN-BOTTOM: 1em; MARGIN-RIGHT: 2em
+}
+.corzoogle-info {
+	FONT-SIZE: small; FLOAT: right; TEXT-ALIGN: right
+}
+.tips {
+	MARGIN-LEFT: 10%; MARGIN-RIGHT: 15%; TEXT-ALIGN: justify
+}

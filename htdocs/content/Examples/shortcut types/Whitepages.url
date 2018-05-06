@@ -1,0 +1,11 @@
+[DEFAULT]
+BASEURL=http://www.whitepages.com.au/wp/index.jsp
+[InternetShortcut]
+URL=http://www.whitepages.com.au/wp/index.jsp?a=1
+Modified=703C29AAA6C5C601B1
+IconFile=http://www.whitepages.com.au/wp/favicon.ico
+IconIndex=1
+HotKey=0
+IDList=
+[{000214A0-0000-0000-C000-000000000046}]
+Prop3=19,2

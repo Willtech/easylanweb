@@ -1,0 +1,261 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 0.9em; BACKGROUND: url(/img/corz-bg.png) #fff7d1 fixed no-repeat; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #574e40; PADDING-TOP: 0px; FONT-FAMILY: Tahoma, "Trebuchet MS", Trebuchet, "Lucida Grande", Verdana, sans-serif; HEIGHT: 100%
+}
+A:link {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #dd8422; TEXT-DECORATION: none
+}
+A:visited {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #d5af40; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #ffb300; TEXT-DECORATION: underline
+}
+A:active {
+	BACKGROUND: #000000; COLOR: #ffffff; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.left {
+	FLOAT: left
+}
+.right {
+	FLOAT: right
+}
+#right {
+	TEXT-ALIGN: right
+}
+#right-div {
+	TEXT-ALIGN: right
+}
+#right-link {
+	TEXT-ALIGN: right
+}
+#right-box {
+	TEXT-ALIGN: right
+}
+.right-text {
+	TEXT-ALIGN: right
+}
+.machine-container {
+	CLEAR: both; FLOAT: none; WIDTH: 100%; HEIGHT: 100%
+}
+.machine-box {
+	CLEAR: both; FLOAT: none; WIDTH: 100%; HEIGHT: 100%
+}
+.machine-menu {
+	CLEAR: both; FLOAT: none; WIDTH: 100%; HEIGHT: 100%
+}
+.machine-container {
+	MARGIN: 0px
+}
+.machine-solo {
+	MARGIN: 0px
+}
+.machine-solo {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 12.5% 25% 0px; PADDING-TOP: 0px
+}
+.machine-box {
+	BORDER-RIGHT: #f5a90a 1px dashed; BORDER-TOP: #f5a90a 1px dashed; BORDER-LEFT: #f5a90a 1px dashed; BORDER-BOTTOM: #f5a90a 1px dashed
+}
+.machine-question {
+	PADDING-LEFT: 0.1em; FONT-WEIGHT: bold; FONT-SIZE: 1.2em; MARGIN-BOTTOM: 0.25em; COLOR: #f09e2f
+}
+.machine-section-menu {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0.5em; FLOAT: left; MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 0.2em; MARGIN-LEFT: 1em; WIDTH: 33%; MARGIN-RIGHT: 1em; PADDING-TOP: 0.75em
+}
+.machine-sections-title {
+	FONT-WEIGHT: bold; FONT-SIZE: 130%; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 1em; COLOR: #b38933
+}
+.machine-sub-sections-title {
+	FONT-WEIGHT: bold; FONT-SIZE: 75%; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0.5em 0px; COLOR: #b38933
+}
+.machine-section-list {
+	FONT-SIZE: 0.8em; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 0.5em; COLOR: #be9c36; TEXT-DECORATION: none
+}
+.machine-files-menu {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0px; FLOAT: right; MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 0.2em; MARGIN-LEFT: 0.5em; PADDING-TOP: 0.75em
+}
+.machine-files-lone {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0px; FLOAT: right; MARGIN-BOTTOM: 0.5em; PADDING-BOTTOM: 0.2em; MARGIN-LEFT: 0.5em; PADDING-TOP: 0.75em
+}
+.machine-files-menu {
+	WIDTH: 45%
+}
+.machine-files-lone {
+	WIDTH: 90%
+}
+.machine-files-title {
+	MARGIN: 0.5em 0px; COLOR: #d8810a
+}
+.machine-file-list {
+	FONT-SIZE: 0.8em; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-LEFT: 0.5em; COLOR: #be9c36; TEXT-DECORATION: none
+}
+.machine-custom-text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0.75em; FONT-SIZE: 0.7em; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; PADDING-BOTTOM: 0.33em; COLOR: #efbb05; PADDING-TOP: 0px; FONT-FAMILY: "Trebuchet MS", Trebuchet, Verdana,  Tahoma, sans-serif
+}
+.machine-powerbar {
+	MARGIN-TOP: 0.2em
+}
+.machine-powered {
+	PADDING-LEFT: 0.2em; FONT-SIZE: 0.7em; BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; COLOR: #d8810a
+}
+.machine-power-switch {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; FLOAT: right; TEXT-ALIGN: right
+}
+.machine-sourceview {
+	FONT-SIZE: 0.9em
+}
+.clean-machine-sourceview {
+	FONT-SIZE: 0.9em
+}
+.machine-sourceview {
+	MARGIN: 90px 1em 1em
+}
+.auth-container {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; MARGIN: 12.5% 33% 0px; PADDING-TOP: 20px
+}
+.auth-container {
+	MARGIN-LEFT: 40%; WIDTH: 250px
+}
+.auth-form {
+	WIDTH: 100%
+}
+.auth-text {
+	FONT-WEIGHT: bold; FONT-SIZE: large; POSITION: relative; TOP: -0.1em
+}
+.auth-note {
+	FONT-SIZE: x-small
+}
+.auth-logout {
+	RIGHT: 11px; POSITION: absolute; TOP: 58px
+}
+.machine-auth-title {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 0.33em
+}
+.machine-stats-link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 90%; RIGHT: 8px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 1px; COLOR: #eba005; BOTTOM: 8px; PADDING-TOP: 0px; POSITION: absolute
+}
+.machine-intro-link {
+	FONT-SIZE: 90%; LEFT: 8px; COLOR: #eba005; POSITION: absolute; TOP: 8px
+}
+.machine-stats {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; MARGIN-LEFT: 25%; MARGIN-RIGHT: 25%; PADDING-TOP: 0px
+}
+.machine-jump-bar {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 7px; FONT-SIZE: large; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 7px; COLOR: #d8810a; PADDING-TOP: 7px; TEXT-DECORATION: none
+}
+.machine-go-up {
+	FLOAT: right; BOTTOM: 0px; MARGIN-RIGHT: 0px; TEXT-ALIGN: right
+}
+.machine-notice {
+	FONT-SIZE: 1.2em; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f09e2f
+}
+.machine-messages {
+	FONT-SIZE: 1.5em; LEFT: 25%; COLOR: #f09e2f; POSITION: absolute; TOP: 8px
+}
+.machine-toplink {
+	FONT-SIZE: 0.9em; RIGHT: 8px; BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #f09e2f; POSITION: absolute; TOP: 56px
+}
+.machine-blink {
+	TEXT-DECORATION: blink
+}
+.space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.half-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.quarter-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.small-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.tiny-space {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.clear {
+	CLEAR: both; MARGIN-LEFT: 0px; WIDTH: 100%; MARGIN-RIGHT: 0px
+}
+.space {
+	HEIGHT: 200px
+}
+.half-space {
+	HEIGHT: 100px
+}
+.quarter-space {
+	HEIGHT: 50px
+}
+.small-space {
+	HEIGHT: 25px
+}
+.tiny-space {
+	HEIGHT: 10px
+}
+.clear {
+	FONT-SIZE: 0px
+}
+.tools {
+	RIGHT: 0px; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px; HEIGHT: 58px
+}
+.top-left-menu {
+	Z-INDEX: 99; LEFT: 11px; POSITION: absolute; TOP: 10px
+}
+.top-mid-menu {
+	Z-INDEX: 99; LEFT: 36%; POSITION: absolute; TOP: 10px
+}
+.top-right-menu {
+	Z-INDEX: 99; RIGHT: 10px; POSITION: absolute; TOP: 10px
+}
+.top-info-menu {
+	Z-INDEX: 99; LEFT: 60%; POSITION: absolute; TOP: 12px
+}
+.info-pane {
+	FONT-WEIGHT: bold; FONT-SIZE: 0.9em; LEFT: 48%
+}
+.top-menu IMG {
+	
+}
+.ribbon {
+	RIGHT: 0px; POSITION: absolute; TOP: 40px
+}
+.ribbon-l {
+	LEFT: 0px; POSITION: absolute; TOP: 40px
+}
+.textview-main-title {
+	FONT-SIZE: 100%; Z-INDEX: 100; LEFT: 11px; COLOR: #d8810a; POSITION: absolute; TOP: 58px
+}
+.textview-plain-link {
+	FONT-SIZE: 100%; Z-INDEX: 50; RIGHT: 12px; COLOR: #be9c36; POSITION: absolute; TOP: 58px; BACKGROUND-COLOR: transparent
+}
+.textview-body {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: 21px; COLOR: #202520; FONT-FAMILY: "Lucida Console", Consolas, "Courier New", Courier, monaco, ProFontWindows, monospace; BACKGROUND-COLOR: transparent
+}
+.clean-textview-body {
+	FONT-SIZE: 0.8em; MARGIN-LEFT: 21px; COLOR: #202520; FONT-FAMILY: "Lucida Console", Consolas, "Courier New", Courier, monaco, ProFontWindows, monospace; BACKGROUND-COLOR: transparent
+}
+.textview-body {
+	MARGIN-TOP: 2em; TOP: 58px
+}
+.textview-engine-link {
+	FONT-SIZE: 90%; Z-INDEX: 75; RIGHT: 11px; COLOR: #efbb05; BOTTOM: 7px; POSITION: absolute; BACKGROUND-COLOR: transparent
+}
+.textview-comment {
+	COLOR: #aaa488
+}
+.textview-quotes {
+	COLOR: #f90
+}
+.textview-variable {
+	COLOR: #66cc00
+}
+.machine-src-foot {
+	CLEAR: both; BORDER-RIGHT: #f5a90a 1px dashed; PADDING-RIGHT: 0.1em; BORDER-TOP: #f5a90a 1px dashed; MARGIN-TOP: 33px; PADDING-LEFT: 0.1em; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0.1em; BORDER-LEFT: #f5a90a 1px dashed; WIDTH: 100%; COLOR: #a07a47; PADDING-TOP: 0.1em; BORDER-BOTTOM: #f5a90a 1px dashed; TEXT-ALIGN: center
+}
+.machine-src-foot-left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0.25em; FLOAT: left; PADDING-BOTTOM: 0.25em; MARGIN-LEFT: 0.5em; PADDING-TOP: 0px
+}
+.machine-src-foot-right {
+	PADDING-RIGHT: 0.25em; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0.25em; MARGIN-RIGHT: 0.5em; PADDING-TOP: 0px
+}

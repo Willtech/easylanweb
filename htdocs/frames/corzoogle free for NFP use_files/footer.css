@@ -1,0 +1,12 @@
+.footer {
+	MARGIN-TOP: 55px; FONT-SIZE: 7pt; MARGIN-BOTTOM: 3px; WIDTH: 100%; COLOR: #ffb300; POSITION: relative; BACKGROUND-COLOR: transparent; TEXT-ALIGN: center
+}
+#footer-left {
+	FLOAT: left; MARGIN-LEFT: 5px; BOTTOM: -5px; POSITION: relative
+}
+#footer-right {
+	FLOAT: right; BOTTOM: -5px; MARGIN-RIGHT: 5px; POSITION: relative
+}
+.footer-middle {
+	TEXT-ALIGN: center
+}
