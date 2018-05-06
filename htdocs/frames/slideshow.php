@@ -18,7 +18,7 @@
 /* Source Code produced by Willtech 2008       */
 /*                                             */
 /* ******************************************* */
-if (empty($_GET[go])) {
+if (empty($_GET['go'])) {
 Header( "HTTP/1.1 302 Found" ); 
 Header( "Location: ../home.php" );
 exit;
@@ -34,7 +34,7 @@ include_once('../includes/cache-kit.php');
 
 	$result = acmeCache::fetch($full_url, $cache_time);
 	if(!$result){
-$folderpath = $_GET[go];
+$folderpath = $_GET['go'];
 $temp = explode("/", $folderpath);
 $title = $temp[(count($temp)-2)];
 $piclist = listfile($folderpath);

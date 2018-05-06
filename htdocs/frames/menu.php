@@ -39,7 +39,7 @@ include_once('../includes/cache-kit.php');
 	$result .= "<br>\r\n<a href=\"/\" target=\"_top\" class=\"boldlink\" style=\"padding-left:39px;\">Home</a>\r\n<br>\r\n";
 $hpos = 0;
 $vpos = 0;
-$go = explode("/", $_GET[go]);
+$go = explode("/", $_GET['go']);
 $hmax = count($go);
 $dirlist = listdir("/");
 $vmax = count($dirlist);

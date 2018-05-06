@@ -19,14 +19,14 @@
 /*                                             */
 /* ******************************************* */
 
-if (empty($_GET[go])) {
+if (empty($_GET['go'])) {
 Header( "HTTP/1.1 302 Found" ); 
 Header( "Location: ../home.php" );
 exit;
 }
 include('../includes/functions.php');
 
-$filepath = $_GET[go];
+$filepath = $_GET['go'];
 $go = explode("/", $filepath);
 $hmax = count($go);
 $file = $go[$hmax-1];
