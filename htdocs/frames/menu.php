@@ -40,9 +40,9 @@ include_once('../includes/cache-kit.php');
 $hpos = 0;
 $vpos = 0;
 $go = explode("/", $_GET['go']);
-$hmax = count($go);
+$hmax = getArrCount($go);
 $dirlist = listdir("/");
-$vmax = count($dirlist);
+$vmax = getArrCount($dirlist);
 while ($vpos < $vmax) {
 	if ($dirlist[$vpos] == $go[$hpos]) {
 		$tag = nicesize ($dirlist[$vpos], $hpos);
@@ -74,7 +74,7 @@ while ($vpos < $vmax) {
 			$hpos++;
 		}
 		$indir = listdir("/$dirpath/");
-		$incountd = count($indir);
+		$incountd = getArrCount($indir);
 		$inplace = 0;
 		while ($inplace < $incountd) {
 			$hcount=0;
@@ -92,7 +92,7 @@ while ($vpos < $vmax) {
 			$inplace++;
 		}
 		$infile = listfile("/$dirpath/");
-		$incountf = count($infile);
+		$incountf = getArrCount($infile);
 		if ($incountd == 0 && $incountf == 0) {
 			$hcount=0;
 			while ($hcount < $hpos) {

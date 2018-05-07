@@ -36,9 +36,9 @@ include_once('../includes/cache-kit.php');
 	if(!$result){
 $folderpath = $_GET['go'];
 $temp = explode("/", $folderpath);
-$title = $temp[(count($temp)-2)];
+$title = $temp[(getArrCount($temp)-2)];
 $piclist = listfile($folderpath);
-$piccount = count($piclist);
+$piccount = getArrCount($piclist);
 $imageURLs = "'../content$folderpath$piclist[0]'";
 $temp = explode(".", $piclist[0]);
 $imageCaptions = "'$temp[0]'";

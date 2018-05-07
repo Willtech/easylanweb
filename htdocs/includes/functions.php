@@ -73,9 +73,9 @@ function listfile ($path) {
 function dirlink ($dir) {
 	$result = "";
 	$testdir = listdir("/$dir/");
-	if ( count($testdir) == 0 ) {
+	if ( getArrCount($testdir) == 0 ) {
 		$testfile = listfile("/$dir/");
-		if ( count($testfile) == 1) {
+		if ( getArrCount($testfile) == 1) {
 			$testname = explode(".", $testfile[0]);
 			switch ($testname[1]) {
 				case "txt":
@@ -105,7 +105,7 @@ function dirlink ($dir) {
 			$ptpos = 0;
 			$slide = 0;
 			$aud = 0;
-			while ($ptpos < count($testfile)) {
+			while ($ptpos < getArrCount($testfile)) {
 				$testname = explode(".", $testfile[$ptpos]);
 				if (($testname[1] == "jpg") or ($testname[1] == "JPG")) {
 					$slide++;
@@ -116,7 +116,7 @@ function dirlink ($dir) {
 				}
 				$ptpos++;
 			}
-			if (($slide && ($slide == count($testfile))) && $aud < 2) {
+			if (($slide && ($slide == getArrCount($testfile))) && $aud < 2) {
 				$result = 'href="slideshow.php?go=/'.$dir.'/" target="bodyFrame"';
 			}
 			
@@ -214,7 +214,7 @@ function dozooglelink ($file) {
 	$result = "";
 	$full = substr($file, strpos($file, "../content/") + strlen("../content/"));
 	$testname = explode("/", $full);
-	$testpos = count($testname)-1;
+	$testpos = getArrCount($testname)-1;
 	$testext = explode(".", $testname[$testpos]);
 		switch ($testext[1]) {
 			case "txt":
@@ -253,5 +253,12 @@ function dozooglelink ($file) {
 	return $result;
 }
 
-
+function getArrCount ($arr) {
+	
+	if (!is_array($arr)) return 0;
+	
+	$result=count($arr);
+	
+	return $result;
+}
 ?>

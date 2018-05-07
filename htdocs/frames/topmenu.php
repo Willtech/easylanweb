@@ -34,7 +34,7 @@ include('../includes/functions.php');
 &nbsp;&nbsp;<a href="/" target="_top">Home</a>&nbsp;&nbsp;
 <?
 $dirlist = listdir('/');
-$dircount = count($dirlist);
+$dircount = getArrCount($dirlist);
 $count = 0; 
 while ($count < $dircount) {
 	echo ('|&nbsp;&nbsp;<a href="menu.php?go='.$dirlist[$count].'" target="menuFrame">'.$dirlist[$count].'</a>&nbsp;&nbsp;');

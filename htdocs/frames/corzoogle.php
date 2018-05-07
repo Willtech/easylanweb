@@ -1015,7 +1015,7 @@ if (isset($_GET['q'])) {
 
 
 //	better do this again
-	$qc = count($corzoogle);
+	$qc = getArrCount($corzoogle);
 
 	$not_this = '';
 
@@ -1151,11 +1151,11 @@ if (($stripped_q != '') and ($qc != 0)) {
 	if ($q != '') {
 
 		$plu = '';
-		$hc = count($hit_name);
+		$hc = getArrCount($hit_name);
 		if ($hc != 1) { $plu = 's'; } // pluralise hit(s) text
 
 		// rank the results, according to $score..
-		if (count($score) != false) { // there might be no hits
+		if (getArrCount($score) != false) { // there might be no hits
 			array_multisort($score, SORT_DESC, $preview, $hit_name, $pop_title, $file_path); }
 			//	php magic!
 
@@ -1179,7 +1179,7 @@ if (($stripped_q != '') and ($qc != 0)) {
 				$cache .=  substr($a, 0, -1);
 
 				//	report boolean NOT words..
-				if ((is_array($not_this)) and (count($not_this) != 0)) {
+				if ((is_array($not_this)) and (getArrCount($not_this) != 0)) {
 					$cache .=  '" (not ';
 					foreach ($not_this as $notword) {
 						$cache .=  ' "'.$notword.'"';
@@ -1250,7 +1250,7 @@ if (($stripped_q != '') and ($qc != 0)) {
 	additionally, we found the following matching filenames..
 	*/
 		if ($sys_filename == true) {
-			if(count($filename_hit) > 0) {
+			if(getArrCount($filename_hit) > 0) {
 			$cache .=  '
 			<table border=0 cellspacing=0 cellpadding=0 width="81%" align=center>
 				<tr>
@@ -1510,7 +1510,7 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 			if Search Between Tags Is Case Insensitive:	*/
 
 		if ($sbtici == true) {
-			if (count($search_between) != 0) {
+			if (getArrCount($search_between) != 0) {
 				if (!strpos($file_data, $search_between[0]) === false ) {
 					if ($between_str = stristr($file_data,$search_between[0])) {
 
@@ -1527,7 +1527,7 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 		} else {
 
 			// uglier, faster..
-			if (count($search_between) != 0) {
+			if (getArrCount($search_between) != 0) {
 				if (!strpos($file_data, $search_between[0]) === false ) {
 
 					$s_start = strpos ($file_data, $search_between[0]) + strlen($search_between[0]) + 1;
@@ -1560,7 +1560,7 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 
 	/*	regardless of the number of query terms, we want a $snippet_length
 		character preview (default is 300)	*/
-		$num_o_q = count($corzoogle);	// number of query terms
+		$num_o_q = getArrCount($corzoogle);	// number of query terms
 		$preview_length = ($snippet_length / $num_o_q); // simple arithmetic
 		$snippet = '';
 		$found = 0;
@@ -1604,27 +1604,27 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 
 				$term_scored = 0;
 
-				//	$term_scored += ($i * substr_count($search_data, $q_str));
+				//	$term_scored += ($i * substr_getArrCount($search_data, $q_str));
 
 				/* a wee bonus for case-sensitive exact match..	*/
-				$exact_bonus = substr_count($search_data, $q_str);
+				$exact_bonus = substr_getArrCount($search_data, $q_str);
 				if ($exact_bonus != 0) { $term_scored += 1; }
 
 				$term_scored += ($i * $exact_bonus);
 
 				if (ucfirst($q_str) != $q_str) {
-					$term_scored += ($i * substr_count($search_data, ucfirst($q_str))); // handy function
+					$term_scored += ($i * substr_getArrCount($search_data, ucfirst($q_str))); // handy function
 				}
 				if (strtolower($q_str) != $q_str) {
-					$term_scored += ($i * substr_count($search_data, strtolower($q_str)));
+					$term_scored += ($i * substr_getArrCount($search_data, strtolower($q_str)));
 				}
 				if (strtoupper($q_str) != $q_str) {
-					$term_scored += ($i * substr_count($search_data, strtoupper($q_str)));
+					$term_scored += ($i * substr_getArrCount($search_data, strtoupper($q_str)));
 				}
 
 				if ($term_scored == 0) {
 					$term_scored += ($i *
-					substr_count($search_data, substr($match_str,0,strpos($match_str,' '))));
+					substr_getArrCount($search_data, substr($match_str,0,strpos($match_str,' '))));
 				}
 
 				//	max $q_word_max points per query term (set in prefs)..
@@ -1689,14 +1689,14 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 					$phrase_scored += ($phrase_max_score * (3/10));
 
 					// the longer the query, the higher the bonus
-					$phrase_scored += (substr_count($q,chr(32))*($phrase_max_score * (1/10)));
+					$phrase_scored += (substr_getArrCount($q,chr(32))*($phrase_max_score * (1/10)));
 
 				//	or +20% for a phrase match with a different CaSe..
 				} elseif(stristr($search_data, $q)) {
 
 					//	"man mac" would match "The BIG Man Machine ..."
 					$phrase_scored += ($phrase_max_score * (2/10));
-					$phrase_scored += (substr_count($q,chr(32))	*5);
+					$phrase_scored += (substr_getArrCount($q,chr(32))	*5);
 				}
 			}
 
@@ -1810,7 +1810,7 @@ global $arc_name, $blog_ext, $blogz_path, $cat_length, $contents_as_title, $cont
 			extension mangling	*/
 			
 
-			if (count($mangle) != 0) {
+			if (getArrCount($mangle) != 0) {
 				reset($mangle);
 				while (list($key, $value) = each($mangle)) {
 					if(substr($file_name, (0 - strlen($key))) == $key) {
@@ -2073,7 +2073,7 @@ global $use_utf8; echo '
         "http://www.w3.org/TR/html4/loose.dtd"><html><head>';
 if ($use_utf8 = true) echo '<meta http-equiv=content-type content="text/html; charset=utf-8">';
 echo '
-<title>corzoogle - the fast, real-time search engine</title><meta name="description" content="corzoogle - fast realtime personal search engine for home or website, from corz.org. fast. portable. cool."><meta name="keywords" content="corz,search engine script for home or website,fast,personal,text,search,engine,php,archive,scanner,live,real time,real,time,PHP,website,personal archive search engine,searching,easy,simple,install,simple install,where can I get free search engine,looking for fast free search engine,here,HERE!data,mining,data-mining"><meta name="generator" content="corzoogle"><meta name="author" content="corz.org"><link href="/inc/osx.css" rel="stylesheet" type="text/css">
+<title>corzoogle - the fast, real-time search engine</title><meta name="description" content="corzoogle - fast realtime personal search engine for home or website, from corz.org. fast. portable. cool."><meta name="keywords" content="corz,search engine script for home or website,fast,personal,text,search,engine,php,archive,scanner,live,real time,real,time,PHP,website,personal archive search engine,searching,easy,simple,install,simple install,where can I get free search engine,looking for fast free search engine,here,HERE!data,mining,data-mining"><meta name="generator" content="Bluefish 2.2.10" ><meta name="author" content="Damian Williamson" ><link href="/inc/osx.css" rel="stylesheet" type="text/css">
 <style type="text/css"><!--
 body {
 	font-family: Tahoma, Lucida Grande, Helvetica, Verdana, sans-serif;
@@ -2214,7 +2214,7 @@ global $removed, $stop_words;
 
 	// stop-words themselves are up in the prefs now.
 
-	$qs = count($stop_words);
+	$qs = getArrCount($stop_words);
 	reset($words);
 	while (list($key, $val) = each($words)) {
 		for($i=0;$i<$qs;$i++) {

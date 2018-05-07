@@ -28,7 +28,7 @@ include('../includes/functions.php');
 
 $filepath = $_GET['go'];
 $go = explode("/", $filepath);
-$hmax = count($go);
+$hmax = getArrCount($go);
 $file = $go[$hmax-1];
 $title = explode(".", $file);
 $content = false;
