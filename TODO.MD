@@ -3,9 +3,9 @@
 ## Aplha
 
 - Update code for PHP v7.x
-    - Logo in menu frame not displaying
+    - ✓ Logo in menu frame not displaying
     - Document handling not working
-    - Warnings
+    - ✓ Warnings
 - Fix the clock
 
 ## Beta
