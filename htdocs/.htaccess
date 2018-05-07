@@ -1,0 +1,5 @@
+# Supress php errors
+# Comment next three lines for debugging
+php_flag display_startup_errors off
+php_flag display_errors off
+php_flag html_errors off
